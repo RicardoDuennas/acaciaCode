@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Acacia Code</h1>
+  <p>Galerías mensuales de imágenes del grupo</p>
+</div>
+
+
+  <h1>Marzo 2023</h1>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/imgFeb/100.jpg" style="width:100%">
+    <img src="/imgFeb/101.jpg" style="width:100%">
+    <img src="/imgFeb/102.jpg" style="width:100%">
+    <img src="/imgFeb/103.jpg" style="width:100%">
+    <img src="/imgFeb/104.jpg" style="width:100%">
+    <img src="/imgFeb/105.jpg" style="width:100%">
+    <img src="/imgFeb/106.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/imgFeb/107.jpg" style="width:100%">
+    <img src="/imgFeb/108.jpg" style="width:100%">
+    <img src="/imgFeb/109.jpg" style="width:100%">
+    <img src="/imgFeb/110.jpg" style="width:100%">
+    <img src="/imgFeb/111.jpg" style="width:100%">
+    <img src="/imgFeb/112.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/imgFeb/113.jpg" style="width:100%">
+    <img src="/imgFeb/114.jpg" style="width:100%">
+    <img src="/imgFeb/115.jpg" style="width:100%">
+    <img src="/imgFeb/116.jpg" style="width:100%">
+    <img src="/imgFeb/117.jpg" style="width:100%">
+    <img src="/imgFeb/118.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/imgFeb/119.jpg" style="width:100%">
+    <img src="/imgFeb/120.jpg" style="width:100%">
+    <img src="/imgFeb/121.jpg" style="width:100%">
+    <img src="/imgFeb/122.jpg" style="width:100%">
+    <img src="/imgFeb/123.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
